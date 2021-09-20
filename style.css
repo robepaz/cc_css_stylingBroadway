@@ -8,6 +8,7 @@ header {
   background-color: #333333;
   position: fixed;
   width: 100%;
+  z-index: 5;
 }
 
 nav {
@@ -26,6 +27,8 @@ nav li {
 
 main {
   text-align: center;
+  position: relative;
+  top: 80px;
 }
 
 main h1 {
@@ -142,3 +145,29 @@ footer p {
     width: 100%;
   }
 }
+
+/* .supporting a {
+    background-color: white;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #333333;
+  }
+  
+  @media (max-width: 500px) {
+    main h1 {
+      font-size: 50px;
+      padding: 0 40px;
+    }
+  
+    .supporting .col {
+      width: 100%;
+    }
+  } */
+  
